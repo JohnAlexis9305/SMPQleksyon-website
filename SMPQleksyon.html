@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMP.Qleksyon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="SMPQleksyon.css" />
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">
+                    <img src="images/SMP.png" alt="SMP Logo" style="max-width: 85px; height: auto;" />
+                    Qleksyon
+                </h2>
+            </a>    
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#socials" class="nav-link">Socials</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    
+    <main>
+    <!-- Hero Section -->    
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Welcome to SMP Qleksyon</h2>
+                    <h3 class="subtitle">Your Affordable Mini Bouquets</h3>
+                    <p class="description">
+                        Discover our beautiful and affordable mini bouquets, perfect for any occasion. 
+                        Whether you're celebrating a birthday, anniversary, or just want to brighten someone's day, 
+                        SMP Qleksyon has the perfect floral arrangement for you.
+
+                    <div class="buttons">
+                        <a href="https://web.facebook.com/people/SMPQleksyon/61556197329346/" target="_blank" class="button order-now">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/Mini_Bouquets_2.png" alt="Mini Bouquets" style="border: 10px solid#530d39;"
+                     class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="gallery-section" id="gallery">
+<h2 class="gallery-title">Our Handmade Flowers</h2>
+<p class="gallery-subtitle">Lovingly crafted mini bouquets for every occasion</p>
+
+
+<div class="gallery-grid">
+<div class="gallery-item">
+<img src="images/bouquet1.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet2.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet3.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet5.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet6.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet7.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/bouquet8.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/christmasTree.jpg" alt="Handmade Bouquet">
+</div>
+<div class="gallery-item">
+<img src="images/flowerbasket2.jpg" alt="Handmade Bouquet">
+</div>
+</div>
+
+</section>
+
+<style>
+.gallery-section {
+background-color: #FFF6F0;
+padding: 60px 20px;
+text-align: center;
+}
+
+.gallery-title {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.gallery-subtitle {
+font-size: 16px;
+margin-bottom: 40px;
+color: #555;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.gallery-item {
+overflow: hidden;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+.gallery-title {
+font-size: 28px;
+}
+}
+</style>
+
+<!-- SOCIALS SECTION -->
+<section class="socials-section" id="socials">
+<h2 class="socials-title">Follow Our Social Account</h2>
+<p class="socials-subtitle">Stay connected and see our latest handmade creations</p>
+
+
+<div class="socials-links">
+<a href="https://web.facebook.com/people/SMPQleksyon/61556197329346/" target="_blank" class="social facebook">Facebook</a>
+</div>
+</section>
+
+<style>
+/* ===== SOCIALS SECTION ===== */
+.socials-section {
+background-color: #BE95A6;
+padding: 60px 20px;
+text-align: center;
+}
+
+
+.socials-title {
+font-size: 34px;
+color: #fff;
+margin-bottom: 10px;
+}
+
+
+.socials-subtitle {
+color: #fff;
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+
+.socials-links {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+
+.social {
+text-decoration: none;
+color: #BE95A6;
+background-color: #FFF6F0;
+padding: 12px 22px;
+border-radius: 30px;
+font-weight: bold;
+transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+
+.social:hover {
+transform: translateY(-3px);
+background-color: #F2C1D1;
+}
+
+
+@media (max-width: 600px) {
+.socials-title {
+font-size: 26px;
+}
+}
+</style>
+
+    <!-- Footer -->
+    <nav class="footer">
+        <div class="footer-content section-content">
+            <p class="footer-text">&copy; 2024 SMP Qleksyon. All rights reserved.</p>
+        </div>
+
+</nav>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
